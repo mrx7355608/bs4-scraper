@@ -1,17 +1,273 @@
 [
     {
-        "product_name": "RJ45 8-pin Modular Straight-Through Inline Coupler",
-        "product_code": "#01937",
-        "product_description": "Connect two modular cables together to extend the overall application",
+        "product_name": "10ft (3m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Gray",
+        "product_code": "#00647",
+        "product_description": "This Snagless Shielded Cat6a patch cable is ideal for use with 10GBase-T ports and equipment, such as network adapters, hubs, switches, routers, DSL/cable modems and patch panels, and will protect a high speed 10 Gigabit network connection from noise and electromagnetic interference. For voice/data/video distribution, this cable will handle bandwidth-intensive applications and drastically reduces both impedance and structural return loss (SRL). Each patch cable is fully tested to meet ANSI/TIA 568 C.2 Cat6a component requirements.Each of the individual pairs is bonded together to help maintain the twist-spacing throughout the line right up to the termination point. Constructed from high quality cable and plugs, this design minimizes Near-End Crosstalk (NEXT) levels. Available in a variety of colors to easily color-code a network installation. Individual length label on each cable for ease of use.",
         "category_1": "Networking",
         "category_2": "Data Center",
         "product_features": [
-            "Easily extend cable runs without signal or performance loss",
-            "Provides a female-to-female feed-through connection for easy cable hookup",
-            "Use for data/PBX applications"
+            "Designed for network adapters, hubs, switches, routers, HDBaseT applications and more",
+            "Supports 10 Gigabit networks up to 328ft for fast data transmission and maximum performance",
+            "Meets the ANSI/TIA-568-C.2 Cat6a requirements for supporting a wide variety of applications",
+            "Constructed with shielded twisted pair (STP) wires, designed to protect a high speed network from noise and electromagnetic interference",
+            "Snagless connector design for high density environments and protecting the RJ-45 connector's lock",
+            "Available in a variety of colors to color-code a network"
         ],
-        "image_name": "https://cdn2.webdamdb.com/1280_EpuI4wL3I1V7.jpg?1625706240",
-        "variants": [],
+        "image_name": "https://cdn2.webdamdb.com/1280_oVWDkikPI3Z5.jpg?1625707139",
+        "variants": [
+            {
+                "length": "10 ft",
+                "color": {
+                    "product_name": "10ft (3m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Aqua",
+                    "color_name": "Aqua",
+                    "product_code": "#00749",
+                    "price": "$23.99",
+                    "image_name": "https://cdn2.webdamdb.com/1280_Mi6g0UVQiKL8.jpg?1625707167",
+                    "specifications": [
+                        {
+                            "General Info": [
+                                {
+                                    "title": "Product Line",
+                                    "value": "C2G"
+                                },
+                                {
+                                    "title": "Color",
+                                    "value": "Aqua"
+                                },
+                                {
+                                    "title": "UPC Number",
+                                    "value": "757120007494"
+                                },
+                                {
+                                    "title": "Country Of Origin",
+                                    "value": "Vietnam"
+                                },
+                                {
+                                    "title": "Features",
+                                    "value": "PoE (Power Over Ethernet)"
+                                },
+                                {
+                                    "title": "Application Sector",
+                                    "value": "Commercial, Industrial, Residential"
+                                },
+                                {
+                                    "title": "Warranty Type",
+                                    "value": "Lifetime"
+                                },
+                                {
+                                    "title": "Type",
+                                    "value": "Cable"
+                                }
+                            ]
+                        },
+                        {
+                            "Dimensions": [
+                                {
+                                    "title": "Product Length US",
+                                    "value": "10.0 FT"
+                                },
+                                {
+                                    "title": "Cable Length",
+                                    "value": "10 ft"
+                                }
+                            ]
+                        },
+                        {
+                            "Technical Information": [
+                                {
+                                    "title": "Jacket Material",
+                                    "value": "PVC (Polyvinyl Chloride)"
+                                },
+                                {
+                                    "title": "Wire Gauge",
+                                    "value": "26 AWG"
+                                },
+                                {
+                                    "title": "Cable Type",
+                                    "value": "Booted, Ethernet Patch Cable, Shielded (STP), Snagless"
+                                },
+                                {
+                                    "title": "Jacket Rating",
+                                    "value": "Standard / Non-Rated"
+                                },
+                                {
+                                    "title": "Cable Diameter",
+                                    "value": "6.2 mm"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "length": "10 ft",
+                "color": {
+                    "product_name": "10ft (3m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Black",
+                    "color_name": "Black",
+                    "product_code": "#00715",
+                    "price": "$22.99",
+                    "image_name": "https://cdn2.webdamdb.com/1280_UACN48a8Is19.jpg?1625707140",
+                    "specifications": [
+                        {
+                            "General Info": [
+                                {
+                                    "title": "Product Line",
+                                    "value": "C2G"
+                                },
+                                {
+                                    "title": "Color",
+                                    "value": "Black"
+                                },
+                                {
+                                    "title": "UPC Number",
+                                    "value": "757120007159"
+                                },
+                                {
+                                    "title": "Country Of Origin",
+                                    "value": "Vietnam"
+                                },
+                                {
+                                    "title": "Features",
+                                    "value": "PoE (Power Over Ethernet)"
+                                },
+                                {
+                                    "title": "Application Sector",
+                                    "value": "Commercial, Industrial, Residential"
+                                },
+                                {
+                                    "title": "Warranty Type",
+                                    "value": "Lifetime"
+                                },
+                                {
+                                    "title": "Type",
+                                    "value": "Cable"
+                                }
+                            ]
+                        },
+                        {
+                            "Dimensions": [
+                                {
+                                    "title": "Product Length US",
+                                    "value": "10.0 FT"
+                                },
+                                {
+                                    "title": "Cable Length",
+                                    "value": "10 ft"
+                                }
+                            ]
+                        },
+                        {
+                            "Technical Information": [
+                                {
+                                    "title": "Jacket Material",
+                                    "value": "PVC (Polyvinyl Chloride)"
+                                },
+                                {
+                                    "title": "Wire Gauge",
+                                    "value": "26 AWG"
+                                },
+                                {
+                                    "title": "Cable Type",
+                                    "value": "Booted, Ethernet Patch Cable, Shielded (STP), Snagless"
+                                },
+                                {
+                                    "title": "Jacket Rating",
+                                    "value": "Standard / Non-Rated"
+                                },
+                                {
+                                    "title": "Cable Diameter",
+                                    "value": "6.2 mm"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "length": "10 ft",
+                "color": {
+                    "product_name": "10ft (3m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Blue",
+                    "color_name": "Blue",
+                    "product_code": "#00681",
+                    "price": "$22.99",
+                    "image_name": "https://cdn2.webdamdb.com/1280_YUTRL9dm3sJ8.jpg?1625707129",
+                    "specifications": [
+                        {
+                            "General Info": [
+                                {
+                                    "title": "Product Line",
+                                    "value": "C2G"
+                                },
+                                {
+                                    "title": "Color",
+                                    "value": "Blue"
+                                },
+                                {
+                                    "title": "UPC Number",
+                                    "value": "757120006817"
+                                },
+                                {
+                                    "title": "Country Of Origin",
+                                    "value": "Vietnam"
+                                },
+                                {
+                                    "title": "Features",
+                                    "value": "PoE (Power Over Ethernet)"
+                                },
+                                {
+                                    "title": "Application Sector",
+                                    "value": "Commercial, Industrial, Residential"
+                                },
+                                {
+                                    "title": "Warranty Type",
+                                    "value": "Lifetime"
+                                },
+                                {
+                                    "title": "Type",
+                                    "value": "Cable"
+                                }
+                            ]
+                        },
+                        {
+                            "Dimensions": [
+                                {
+                                    "title": "Product Length US",
+                                    "value": "10.0 FT"
+                                },
+                                {
+                                    "title": "Cable Length",
+                                    "value": "10 ft"
+                                }
+                            ]
+                        },
+                        {
+                            "Technical Information": [
+                                {
+                                    "title": "Jacket Material",
+                                    "value": "PVC (Polyvinyl Chloride)"
+                                },
+                                {
+                                    "title": "Wire Gauge",
+                                    "value": "26 AWG"
+                                },
+                                {
+                                    "title": "Cable Type",
+                                    "value": "Booted, Ethernet Patch Cable, Shielded (STP), Snagless"
+                                },
+                                {
+                                    "title": "Jacket Rating",
+                                    "value": "Standard / Non-Rated"
+                                },
+                                {
+                                    "title": "Cable Diameter",
+                                    "value": "6.2 mm"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
         "specifications": [
             {
                 "General Info": [
@@ -21,15 +277,23 @@
                     },
                     {
                         "title": "Color",
-                        "value": "Ivory"
+                        "value": "Gray"
                     },
                     {
                         "title": "UPC Number",
-                        "value": "757120019374"
+                        "value": "757120006473"
                     },
                     {
                         "title": "Country Of Origin",
-                        "value": "China"
+                        "value": "Vietnam"
+                    },
+                    {
+                        "title": "Features",
+                        "value": "PoE (Power Over Ethernet)"
+                    },
+                    {
+                        "title": "Application Sector",
+                        "value": "Commercial, Industrial, Residential"
                     },
                     {
                         "title": "Warranty Type",
@@ -37,12 +301,45 @@
                     },
                     {
                         "title": "Type",
-                        "value": "Coupler"
+                        "value": "Cable"
                     }
                 ]
             },
             {
-                "Technical Information": []
+                "Dimensions": [
+                    {
+                        "title": "Product Length US",
+                        "value": "10.0 FT"
+                    },
+                    {
+                        "title": "Cable Length",
+                        "value": "10 ft"
+                    }
+                ]
+            },
+            {
+                "Technical Information": [
+                    {
+                        "title": "Jacket Material",
+                        "value": "PVC (Polyvinyl Chloride)"
+                    },
+                    {
+                        "title": "Wire Gauge",
+                        "value": "26 AWG"
+                    },
+                    {
+                        "title": "Cable Type",
+                        "value": "Booted, Ethernet Patch Cable, Shielded (STP), Snagless"
+                    },
+                    {
+                        "title": "Jacket Rating",
+                        "value": "Standard / Non-Rated"
+                    },
+                    {
+                        "title": "Cable Diameter",
+                        "value": "6.2 mm"
+                    }
+                ]
             }
         ]
     },
@@ -63,7 +360,7 @@
         "image_name": "https://cdn2.webdamdb.com/1280_oVWDkikPI3Z5.jpg?1625707139",
         "variants": [
             {
-                "length": "1 ft",
+                "length": "0.5 ft",
                 "color": {
                     "product_name": "0.5ft (0.15m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Aqua",
                     "color_name": "Aqua",
@@ -147,7 +444,7 @@
                 }
             },
             {
-                "length": "1 ft",
+                "length": "0.5 ft",
                 "color": {
                     "product_name": "0.5ft (0.15m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Black",
                     "color_name": "Black",
@@ -231,7 +528,7 @@
                 }
             },
             {
-                "length": "1 ft",
+                "length": "0.5 ft",
                 "color": {
                     "product_name": "0.5ft (0.15m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Blue",
                     "color_name": "Blue",
@@ -407,7 +704,7 @@
         "image_name": "https://cdn2.webdamdb.com/1280_oVWDkikPI3Z5.jpg?1625707139",
         "variants": [
             {
-                "length": "2 ft",
+                "length": "1 ft",
                 "color": {
                     "product_name": "1ft (0.3m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Aqua",
                     "color_name": "Aqua",
@@ -491,7 +788,7 @@
                 }
             },
             {
-                "length": "2 ft",
+                "length": "1 ft",
                 "color": {
                     "product_name": "1ft (0.3m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Black",
                     "color_name": "Black",
@@ -575,7 +872,7 @@
                 }
             },
             {
-                "length": "2 ft",
+                "length": "1 ft",
                 "color": {
                     "product_name": "1ft (0.3m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Blue",
                     "color_name": "Blue",
@@ -751,7 +1048,7 @@
         "image_name": "https://cdn2.webdamdb.com/1280_oVWDkikPI3Z5.jpg?1625707139",
         "variants": [
             {
-                "length": "3 ft",
+                "length": "2 ft",
                 "color": {
                     "product_name": "2ft (0.6m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Aqua",
                     "color_name": "Aqua",
@@ -835,7 +1132,7 @@
                 }
             },
             {
-                "length": "3 ft",
+                "length": "2 ft",
                 "color": {
                     "product_name": "2ft (0.6m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Black",
                     "color_name": "Black",
@@ -919,7 +1216,7 @@
                 }
             },
             {
-                "length": "3 ft",
+                "length": "2 ft",
                 "color": {
                     "product_name": "2ft (0.6m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Blue",
                     "color_name": "Blue",
@@ -1095,7 +1392,7 @@
         "image_name": "https://cdn2.webdamdb.com/1280_oVWDkikPI3Z5.jpg?1625707139",
         "variants": [
             {
-                "length": "4 ft",
+                "length": "3 ft",
                 "color": {
                     "product_name": "3ft (0.9m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Aqua",
                     "color_name": "Aqua",
@@ -1179,7 +1476,7 @@
                 }
             },
             {
-                "length": "4 ft",
+                "length": "3 ft",
                 "color": {
                     "product_name": "3ft (0.9m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Black",
                     "color_name": "Black",
@@ -1263,7 +1560,7 @@
                 }
             },
             {
-                "length": "4 ft",
+                "length": "3 ft",
                 "color": {
                     "product_name": "3ft (0.9m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Blue",
                     "color_name": "Blue",
@@ -1439,7 +1736,7 @@
         "image_name": "https://cdn2.webdamdb.com/1280_oVWDkikPI3Z5.jpg?1625707139",
         "variants": [
             {
-                "length": "5 ft",
+                "length": "4 ft",
                 "color": {
                     "product_name": "4ft (1.2m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Aqua",
                     "color_name": "Aqua",
@@ -1523,7 +1820,7 @@
                 }
             },
             {
-                "length": "5 ft",
+                "length": "4 ft",
                 "color": {
                     "product_name": "4ft (1.2m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Black",
                     "color_name": "Black",
@@ -1607,7 +1904,7 @@
                 }
             },
             {
-                "length": "5 ft",
+                "length": "4 ft",
                 "color": {
                     "product_name": "4ft (1.2m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Blue",
                     "color_name": "Blue",
@@ -1783,7 +2080,7 @@
         "image_name": "https://cdn2.webdamdb.com/1280_oVWDkikPI3Z5.jpg?1625707139",
         "variants": [
             {
-                "length": "6 ft",
+                "length": "5 ft",
                 "color": {
                     "product_name": "5ft (1.5m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Aqua",
                     "color_name": "Aqua",
@@ -1867,7 +2164,7 @@
                 }
             },
             {
-                "length": "6 ft",
+                "length": "5 ft",
                 "color": {
                     "product_name": "5ft (1.5m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Black",
                     "color_name": "Black",
@@ -1951,7 +2248,7 @@
                 }
             },
             {
-                "length": "6 ft",
+                "length": "5 ft",
                 "color": {
                     "product_name": "5ft (1.5m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Blue",
                     "color_name": "Blue",
@@ -2127,7 +2424,7 @@
         "image_name": "https://cdn2.webdamdb.com/1280_oVWDkikPI3Z5.jpg?1625707139",
         "variants": [
             {
-                "length": "7 ft",
+                "length": "6 ft",
                 "color": {
                     "product_name": "6ft (1.8m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Aqua",
                     "color_name": "Aqua",
@@ -2211,7 +2508,7 @@
                 }
             },
             {
-                "length": "7 ft",
+                "length": "6 ft",
                 "color": {
                     "product_name": "6ft (1.8m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Black",
                     "color_name": "Black",
@@ -2295,7 +2592,7 @@
                 }
             },
             {
-                "length": "7 ft",
+                "length": "6 ft",
                 "color": {
                     "product_name": "6ft (1.8m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Blue",
                     "color_name": "Blue",
@@ -2471,7 +2768,7 @@
         "image_name": "https://cdn2.webdamdb.com/1280_oVWDkikPI3Z5.jpg?1625707139",
         "variants": [
             {
-                "length": "8 ft",
+                "length": "7 ft",
                 "color": {
                     "product_name": "7ft (2.1m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Aqua",
                     "color_name": "Aqua",
@@ -2555,7 +2852,7 @@
                 }
             },
             {
-                "length": "8 ft",
+                "length": "7 ft",
                 "color": {
                     "product_name": "7ft (2.1m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Black",
                     "color_name": "Black",
@@ -2639,7 +2936,7 @@
                 }
             },
             {
-                "length": "8 ft",
+                "length": "7 ft",
                 "color": {
                     "product_name": "7ft (2.1m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Blue",
                     "color_name": "Blue",
@@ -2815,7 +3112,7 @@
         "image_name": "https://cdn2.webdamdb.com/1280_oVWDkikPI3Z5.jpg?1625707139",
         "variants": [
             {
-                "length": "9 ft",
+                "length": "8 ft",
                 "color": {
                     "product_name": "8ft (2.4m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Aqua",
                     "color_name": "Aqua",
@@ -2899,7 +3196,7 @@
                 }
             },
             {
-                "length": "9 ft",
+                "length": "8 ft",
                 "color": {
                     "product_name": "8ft (2.4m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Black",
                     "color_name": "Black",
@@ -2983,7 +3280,7 @@
                 }
             },
             {
-                "length": "9 ft",
+                "length": "8 ft",
                 "color": {
                     "product_name": "8ft (2.4m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Blue",
                     "color_name": "Blue",
@@ -3159,7 +3456,7 @@
         "image_name": "https://cdn2.webdamdb.com/1280_oVWDkikPI3Z5.jpg?1625707139",
         "variants": [
             {
-                "length": "10 ft",
+                "length": "9 ft",
                 "color": {
                     "product_name": "9ft (2.7m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Aqua",
                     "color_name": "Aqua",
@@ -3243,7 +3540,7 @@
                 }
             },
             {
-                "length": "10 ft",
+                "length": "9 ft",
                 "color": {
                     "product_name": "9ft (2.7m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Black",
                     "color_name": "Black",
@@ -3327,7 +3624,7 @@
                 }
             },
             {
-                "length": "10 ft",
+                "length": "9 ft",
                 "color": {
                     "product_name": "9ft (2.7m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Blue",
                     "color_name": "Blue",
@@ -5893,276 +6190,20 @@
                 ]
             }
         ]
-    },
+    }
+][
     {
-        "product_name": "0.5ft (0.15m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Gray",
-        "product_code": "#00971",
-        "product_description": "This Snagless Shielded Cat6a patch cable is ideal for use with 10GBase-T ports and equipment, such as network adapters, hubs, switches, routers, DSL/cable modems and patch panels, and will protect a high speed 10 Gigabit network connection from noise and electromagnetic interference. For voice/data/video distribution, this cable will handle bandwidth-intensive applications and drastically reduces both impedance and structural return loss (SRL). Each patch cable is fully tested to meet ANSI/TIA 568 C.2 Cat6a component requirements.Each of the individual pairs is bonded together to help maintain the twist-spacing throughout the line right up to the termination point. Constructed from high quality cable and plugs, this design minimizes Near-End Crosstalk (NEXT) levels. Available in a variety of colors to easily color-code a network installation. Individual length label on each cable for ease of use.",
-        "category_1": "Networking",
-        "category_2": "Data Center",
+        "product_name": "2ft (0.6m) 16 AWG Universal Power Cord (NEMA 5-15P to IEC320C13) (TAA Compliant)",
+        "product_code": "#29925",
+        "product_description": "Replace your overused or misplaced power cable, or just get some extra cords for convenience. This universal power cord is designed to work with most PCs, monitors, scanners, printers and other devices that use the 3-pin shroud power connector. Plus this heavy duty 16 AWG cord features a fully molded design for maximum durability and long life.The female connector plugs directly into the device while the male connector plugs into a standard outlet.",
+        "category_1": "AC Power",
+        "category_2": "AC Power Cords",
         "product_features": [
-            "Designed for network adapters, hubs, switches, routers, HDBaseT applications and more",
-            "Supports 10 Gigabit networks up to 328ft for fast data transmission and maximum performance",
-            "Meets the ANSI/TIA-568-C.2 Cat6a requirements for supporting a wide variety of applications",
-            "Constructed with shielded twisted pair (STP) wires, designed to protect a high speed network from noise and electromagnetic interference",
-            "Snagless connector design for high density environments and protecting the RJ-45 connector's lock",
-            "Available in a variety of colors to color-code a network"
+            "Designed to work with most PCs, monitors, scanners, printers and other devices that use the 3-pin shroud power connector",
+            "Fully molded heavy duty 16 AWG cord"
         ],
-        "image_name": "https://cdn2.webdamdb.com/1280_oVWDkikPI3Z5.jpg?1625707139",
-        "variants": [
-            {
-                "length": "4 ft",
-                "color": {
-                    "product_name": "0.5ft (0.15m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Aqua",
-                    "color_name": "Aqua",
-                    "product_code": "#00977",
-                    "price": "$12.99",
-                    "image_name": "https://cdn2.webdamdb.com/1280_Mi6g0UVQiKL8.jpg?1625707167",
-                    "specifications": [
-                        {
-                            "General Info": [
-                                {
-                                    "title": "Product Line",
-                                    "value": "C2G"
-                                },
-                                {
-                                    "title": "Color",
-                                    "value": "Aqua"
-                                },
-                                {
-                                    "title": "UPC Number",
-                                    "value": "757120009771"
-                                },
-                                {
-                                    "title": "Country Of Origin",
-                                    "value": "Vietnam"
-                                },
-                                {
-                                    "title": "Features",
-                                    "value": "PoE (Power Over Ethernet)"
-                                },
-                                {
-                                    "title": "Application Sector",
-                                    "value": "Commercial, Industrial, Residential"
-                                },
-                                {
-                                    "title": "Warranty Type",
-                                    "value": "Lifetime"
-                                },
-                                {
-                                    "title": "Type",
-                                    "value": "Cable"
-                                }
-                            ]
-                        },
-                        {
-                            "Dimensions": [
-                                {
-                                    "title": "Product Length US",
-                                    "value": "0.5 FT"
-                                },
-                                {
-                                    "title": "Cable Length",
-                                    "value": "0.5 ft"
-                                }
-                            ]
-                        },
-                        {
-                            "Technical Information": [
-                                {
-                                    "title": "Jacket Material",
-                                    "value": "PVC (Polyvinyl Chloride)"
-                                },
-                                {
-                                    "title": "Wire Gauge",
-                                    "value": "26 AWG"
-                                },
-                                {
-                                    "title": "Cable Type",
-                                    "value": "Booted, Ethernet Patch Cable, Shielded (STP), Snagless"
-                                },
-                                {
-                                    "title": "Jacket Rating",
-                                    "value": "Standard / Non-Rated"
-                                },
-                                {
-                                    "title": "Cable Diameter",
-                                    "value": "6.2 mm"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            },
-            {
-                "length": "4 ft",
-                "color": {
-                    "product_name": "0.5ft (0.15m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Black",
-                    "color_name": "Black",
-                    "product_code": "#00975",
-                    "price": "$12.99",
-                    "image_name": "https://cdn2.webdamdb.com/1280_UACN48a8Is19.jpg?1625707140",
-                    "specifications": [
-                        {
-                            "General Info": [
-                                {
-                                    "title": "Product Line",
-                                    "value": "C2G"
-                                },
-                                {
-                                    "title": "Color",
-                                    "value": "Black"
-                                },
-                                {
-                                    "title": "UPC Number",
-                                    "value": "757120009757"
-                                },
-                                {
-                                    "title": "Country Of Origin",
-                                    "value": "Vietnam"
-                                },
-                                {
-                                    "title": "Features",
-                                    "value": "PoE (Power Over Ethernet)"
-                                },
-                                {
-                                    "title": "Application Sector",
-                                    "value": "Commercial, Industrial, Residential"
-                                },
-                                {
-                                    "title": "Warranty Type",
-                                    "value": "Lifetime"
-                                },
-                                {
-                                    "title": "Type",
-                                    "value": "Cable"
-                                }
-                            ]
-                        },
-                        {
-                            "Dimensions": [
-                                {
-                                    "title": "Product Length US",
-                                    "value": "0.5 FT"
-                                },
-                                {
-                                    "title": "Cable Length",
-                                    "value": "0.5 ft"
-                                }
-                            ]
-                        },
-                        {
-                            "Technical Information": [
-                                {
-                                    "title": "Jacket Material",
-                                    "value": "PVC (Polyvinyl Chloride)"
-                                },
-                                {
-                                    "title": "Wire Gauge",
-                                    "value": "26 AWG"
-                                },
-                                {
-                                    "title": "Cable Type",
-                                    "value": "Booted, Ethernet Patch Cable, Shielded (STP), Snagless"
-                                },
-                                {
-                                    "title": "Jacket Rating",
-                                    "value": "Standard / Non-Rated"
-                                },
-                                {
-                                    "title": "Cable Diameter",
-                                    "value": "6.2 mm"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            },
-            {
-                "length": "4 ft",
-                "color": {
-                    "product_name": "0.5ft (0.15m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Blue",
-                    "color_name": "Blue",
-                    "product_code": "#00973",
-                    "price": "$12.99",
-                    "image_name": "https://cdn2.webdamdb.com/1280_YUTRL9dm3sJ8.jpg?1625707129",
-                    "specifications": [
-                        {
-                            "General Info": [
-                                {
-                                    "title": "Product Line",
-                                    "value": "C2G"
-                                },
-                                {
-                                    "title": "Color",
-                                    "value": "Blue"
-                                },
-                                {
-                                    "title": "UPC Number",
-                                    "value": "757120009733"
-                                },
-                                {
-                                    "title": "Country Of Origin",
-                                    "value": "Vietnam"
-                                },
-                                {
-                                    "title": "Features",
-                                    "value": "PoE (Power Over Ethernet)"
-                                },
-                                {
-                                    "title": "Application Sector",
-                                    "value": "Commercial, Industrial, Residential"
-                                },
-                                {
-                                    "title": "Warranty Type",
-                                    "value": "Lifetime"
-                                },
-                                {
-                                    "title": "Type",
-                                    "value": "Cable"
-                                }
-                            ]
-                        },
-                        {
-                            "Dimensions": [
-                                {
-                                    "title": "Product Length US",
-                                    "value": "0.5 FT"
-                                },
-                                {
-                                    "title": "Cable Length",
-                                    "value": "0.5 ft"
-                                }
-                            ]
-                        },
-                        {
-                            "Technical Information": [
-                                {
-                                    "title": "Jacket Material",
-                                    "value": "PVC (Polyvinyl Chloride)"
-                                },
-                                {
-                                    "title": "Wire Gauge",
-                                    "value": "26 AWG"
-                                },
-                                {
-                                    "title": "Cable Type",
-                                    "value": "Booted, Ethernet Patch Cable, Shielded (STP), Snagless"
-                                },
-                                {
-                                    "title": "Jacket Rating",
-                                    "value": "Standard / Non-Rated"
-                                },
-                                {
-                                    "title": "Cable Diameter",
-                                    "value": "6.2 mm"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            }
-        ],
+        "image_name": "https://cdn2.webdamdb.com/1280_o1C9DNglsR71.jpg?1625707042",
+        "variants": [],
         "specifications": [
             {
                 "General Info": [
@@ -6172,23 +6213,15 @@
                     },
                     {
                         "title": "Color",
-                        "value": "Gray"
+                        "value": "Black"
                     },
                     {
                         "title": "UPC Number",
-                        "value": "757120009719"
+                        "value": "757120299257"
                     },
                     {
                         "title": "Country Of Origin",
-                        "value": "Vietnam"
-                    },
-                    {
-                        "title": "Features",
-                        "value": "PoE (Power Over Ethernet)"
-                    },
-                    {
-                        "title": "Application Sector",
-                        "value": "Commercial, Industrial, Residential"
+                        "value": "Taiwan, Province Of China"
                     },
                     {
                         "title": "Warranty Type",
@@ -6196,695 +6229,7 @@
                     },
                     {
                         "title": "Type",
-                        "value": "Cable"
-                    }
-                ]
-            },
-            {
-                "Dimensions": [
-                    {
-                        "title": "Product Length US",
-                        "value": "0.5 FT"
-                    },
-                    {
-                        "title": "Cable Length",
-                        "value": "0.5 ft"
-                    }
-                ]
-            },
-            {
-                "Technical Information": [
-                    {
-                        "title": "Jacket Material",
-                        "value": "PVC (Polyvinyl Chloride)"
-                    },
-                    {
-                        "title": "Wire Gauge",
-                        "value": "26 AWG"
-                    },
-                    {
-                        "title": "Cable Type",
-                        "value": "Booted, Ethernet Patch Cable, Shielded (STP), Snagless"
-                    },
-                    {
-                        "title": "Jacket Rating",
-                        "value": "Standard / Non-Rated"
-                    },
-                    {
-                        "title": "Cable Diameter",
-                        "value": "6.2 mm"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "product_name": "1ft (0.3m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Gray",
-        "product_code": "#00638",
-        "product_description": "This Snagless Shielded Cat6a patch cable is ideal for use with 10GBase-T ports and equipment, such as network adapters, hubs, switches, routers, DSL/cable modems and patch panels, and will protect a high speed 10 Gigabit network connection from noise and electromagnetic interference. For voice/data/video distribution, this cable will handle bandwidth-intensive applications and drastically reduces both impedance and structural return loss (SRL). Each patch cable is fully tested to meet ANSI/TIA 568 C.2 Cat6a component requirements.Each of the individual pairs is bonded together to help maintain the twist-spacing throughout the line right up to the termination point. Constructed from high quality cable and plugs, this design minimizes Near-End Crosstalk (NEXT) levels. Available in a variety of colors to easily color-code a network installation. Individual length label on each cable for ease of use.",
-        "category_1": "Networking",
-        "category_2": "Data Center",
-        "product_features": [
-            "Designed for network adapters, hubs, switches, routers, HDBaseT applications and more",
-            "Supports 10 Gigabit networks up to 328ft for fast data transmission and maximum performance",
-            "Meets the ANSI/TIA-568-C.2 Cat6a requirements for supporting a wide variety of applications",
-            "Constructed with shielded twisted pair (STP) wires, designed to protect a high speed network from noise and electromagnetic interference",
-            "Snagless connector design for high density environments and protecting the RJ-45 connector's lock",
-            "Available in a variety of colors to color-code a network"
-        ],
-        "image_name": "https://cdn2.webdamdb.com/1280_oVWDkikPI3Z5.jpg?1625707139",
-        "variants": [
-            {
-                "length": "5 ft",
-                "color": {
-                    "product_name": "1ft (0.3m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Aqua",
-                    "color_name": "Aqua",
-                    "product_code": "#00740",
-                    "price": "$13.99",
-                    "image_name": "https://cdn2.webdamdb.com/1280_Mi6g0UVQiKL8.jpg?1625707167",
-                    "specifications": [
-                        {
-                            "General Info": [
-                                {
-                                    "title": "Product Line",
-                                    "value": "C2G"
-                                },
-                                {
-                                    "title": "Color",
-                                    "value": "Aqua"
-                                },
-                                {
-                                    "title": "UPC Number",
-                                    "value": "757120007401"
-                                },
-                                {
-                                    "title": "Country Of Origin",
-                                    "value": "Vietnam"
-                                },
-                                {
-                                    "title": "Features",
-                                    "value": "PoE (Power Over Ethernet)"
-                                },
-                                {
-                                    "title": "Application Sector",
-                                    "value": "Commercial, Industrial, Residential"
-                                },
-                                {
-                                    "title": "Warranty Type",
-                                    "value": "Lifetime"
-                                },
-                                {
-                                    "title": "Type",
-                                    "value": "Cable"
-                                }
-                            ]
-                        },
-                        {
-                            "Dimensions": [
-                                {
-                                    "title": "Product Length US",
-                                    "value": "1.0 FT"
-                                },
-                                {
-                                    "title": "Cable Length",
-                                    "value": "1 ft"
-                                }
-                            ]
-                        },
-                        {
-                            "Technical Information": [
-                                {
-                                    "title": "Jacket Material",
-                                    "value": "PVC (Polyvinyl Chloride)"
-                                },
-                                {
-                                    "title": "Wire Gauge",
-                                    "value": "26 AWG"
-                                },
-                                {
-                                    "title": "Cable Type",
-                                    "value": "Booted, Ethernet Patch Cable, Shielded (STP), Snagless"
-                                },
-                                {
-                                    "title": "Jacket Rating",
-                                    "value": "Standard / Non-Rated"
-                                },
-                                {
-                                    "title": "Cable Diameter",
-                                    "value": "6.2 mm"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            },
-            {
-                "length": "5 ft",
-                "color": {
-                    "product_name": "1ft (0.3m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Black",
-                    "color_name": "Black",
-                    "product_code": "#00706",
-                    "price": "$11.99",
-                    "image_name": "https://cdn2.webdamdb.com/1280_UACN48a8Is19.jpg?1625707140",
-                    "specifications": [
-                        {
-                            "General Info": [
-                                {
-                                    "title": "Product Line",
-                                    "value": "C2G"
-                                },
-                                {
-                                    "title": "Color",
-                                    "value": "Black"
-                                },
-                                {
-                                    "title": "UPC Number",
-                                    "value": "757120007067"
-                                },
-                                {
-                                    "title": "Country Of Origin",
-                                    "value": "Vietnam"
-                                },
-                                {
-                                    "title": "Features",
-                                    "value": "PoE (Power Over Ethernet)"
-                                },
-                                {
-                                    "title": "Application Sector",
-                                    "value": "Commercial, Industrial, Residential"
-                                },
-                                {
-                                    "title": "Warranty Type",
-                                    "value": "Lifetime"
-                                },
-                                {
-                                    "title": "Type",
-                                    "value": "Cable"
-                                }
-                            ]
-                        },
-                        {
-                            "Dimensions": [
-                                {
-                                    "title": "Product Length US",
-                                    "value": "1.0 FT"
-                                },
-                                {
-                                    "title": "Cable Length",
-                                    "value": "1 ft"
-                                }
-                            ]
-                        },
-                        {
-                            "Technical Information": [
-                                {
-                                    "title": "Jacket Material",
-                                    "value": "PVC (Polyvinyl Chloride)"
-                                },
-                                {
-                                    "title": "Wire Gauge",
-                                    "value": "26 AWG"
-                                },
-                                {
-                                    "title": "Cable Type",
-                                    "value": "Booted, Ethernet Patch Cable, Shielded (STP), Snagless"
-                                },
-                                {
-                                    "title": "Jacket Rating",
-                                    "value": "Standard / Non-Rated"
-                                },
-                                {
-                                    "title": "Cable Diameter",
-                                    "value": "6.2 mm"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            },
-            {
-                "length": "5 ft",
-                "color": {
-                    "product_name": "1ft (0.3m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Blue",
-                    "color_name": "Blue",
-                    "product_code": "#00672",
-                    "price": "$11.99",
-                    "image_name": "https://cdn2.webdamdb.com/1280_YUTRL9dm3sJ8.jpg?1625707129",
-                    "specifications": [
-                        {
-                            "General Info": [
-                                {
-                                    "title": "Product Line",
-                                    "value": "C2G"
-                                },
-                                {
-                                    "title": "Color",
-                                    "value": "Blue"
-                                },
-                                {
-                                    "title": "UPC Number",
-                                    "value": "757120006725"
-                                },
-                                {
-                                    "title": "Country Of Origin",
-                                    "value": "Vietnam"
-                                },
-                                {
-                                    "title": "Features",
-                                    "value": "PoE (Power Over Ethernet)"
-                                },
-                                {
-                                    "title": "Application Sector",
-                                    "value": "Commercial, Industrial, Residential"
-                                },
-                                {
-                                    "title": "Warranty Type",
-                                    "value": "Lifetime"
-                                },
-                                {
-                                    "title": "Type",
-                                    "value": "Cable"
-                                }
-                            ]
-                        },
-                        {
-                            "Dimensions": [
-                                {
-                                    "title": "Product Length US",
-                                    "value": "1.0 FT"
-                                },
-                                {
-                                    "title": "Cable Length",
-                                    "value": "1 ft"
-                                }
-                            ]
-                        },
-                        {
-                            "Technical Information": [
-                                {
-                                    "title": "Jacket Material",
-                                    "value": "PVC (Polyvinyl Chloride)"
-                                },
-                                {
-                                    "title": "Wire Gauge",
-                                    "value": "26 AWG"
-                                },
-                                {
-                                    "title": "Cable Type",
-                                    "value": "Booted, Ethernet Patch Cable, Shielded (STP), Snagless"
-                                },
-                                {
-                                    "title": "Jacket Rating",
-                                    "value": "Standard / Non-Rated"
-                                },
-                                {
-                                    "title": "Cable Diameter",
-                                    "value": "6.2 mm"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            }
-        ],
-        "specifications": [
-            {
-                "General Info": [
-                    {
-                        "title": "Product Line",
-                        "value": "C2G"
-                    },
-                    {
-                        "title": "Color",
-                        "value": "Gray"
-                    },
-                    {
-                        "title": "UPC Number",
-                        "value": "757120006381"
-                    },
-                    {
-                        "title": "Country Of Origin",
-                        "value": "China"
-                    },
-                    {
-                        "title": "Features",
-                        "value": "PoE (Power Over Ethernet)"
-                    },
-                    {
-                        "title": "Application Sector",
-                        "value": "Commercial, Industrial, Residential"
-                    },
-                    {
-                        "title": "Warranty Type",
-                        "value": "Lifetime"
-                    },
-                    {
-                        "title": "Type",
-                        "value": "Cable"
-                    }
-                ]
-            },
-            {
-                "Dimensions": [
-                    {
-                        "title": "Product Length US",
-                        "value": "1.0 FT"
-                    },
-                    {
-                        "title": "Cable Length",
-                        "value": "1 ft"
-                    }
-                ]
-            },
-            {
-                "Technical Information": [
-                    {
-                        "title": "Jacket Material",
-                        "value": "PVC (Polyvinyl Chloride)"
-                    },
-                    {
-                        "title": "Wire Gauge",
-                        "value": "26 AWG"
-                    },
-                    {
-                        "title": "Cable Type",
-                        "value": "Booted, Ethernet Patch Cable, Shielded (STP), Snagless"
-                    },
-                    {
-                        "title": "Jacket Rating",
-                        "value": "Standard / Non-Rated"
-                    },
-                    {
-                        "title": "Cable Diameter",
-                        "value": "6.2 mm"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "product_name": "2ft (0.6m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Gray",
-        "product_code": "#00639",
-        "product_description": "This Snagless Shielded Cat6a patch cable is ideal for use with 10GBase-T ports and equipment, such as network adapters, hubs, switches, routers, DSL/cable modems and patch panels, and will protect a high speed 10 Gigabit network connection from noise and electromagnetic interference. For voice/data/video distribution, this cable will handle bandwidth-intensive applications and drastically reduces both impedance and structural return loss (SRL). Each patch cable is fully tested to meet ANSI/TIA 568 C.2 Cat6a component requirements.Each of the individual pairs is bonded together to help maintain the twist-spacing throughout the line right up to the termination point. Constructed from high quality cable and plugs, this design minimizes Near-End Crosstalk (NEXT) levels. Available in a variety of colors to easily color-code a network installation. Individual length label on each cable for ease of use.",
-        "category_1": "Networking",
-        "category_2": "Data Center",
-        "product_features": [
-            "Designed for network adapters, hubs, switches, routers, HDBaseT applications and more",
-            "Supports 10 Gigabit networks up to 328ft for fast data transmission and maximum performance",
-            "Meets the ANSI/TIA-568-C.2 Cat6a requirements for supporting a wide variety of applications",
-            "Constructed with shielded twisted pair (STP) wires, designed to protect a high speed network from noise and electromagnetic interference",
-            "Snagless connector design for high density environments and protecting the RJ-45 connector's lock",
-            "Available in a variety of colors to color-code a network"
-        ],
-        "image_name": "https://cdn2.webdamdb.com/1280_oVWDkikPI3Z5.jpg?1625707139",
-        "variants": [
-            {
-                "length": "6 ft",
-                "color": {
-                    "product_name": "2ft (0.6m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Aqua",
-                    "color_name": "Aqua",
-                    "product_code": "#00741",
-                    "price": "$12.99",
-                    "image_name": "https://cdn2.webdamdb.com/1280_Mi6g0UVQiKL8.jpg?1625707167",
-                    "specifications": [
-                        {
-                            "General Info": [
-                                {
-                                    "title": "Product Line",
-                                    "value": "C2G"
-                                },
-                                {
-                                    "title": "Color",
-                                    "value": "Aqua"
-                                },
-                                {
-                                    "title": "UPC Number",
-                                    "value": "757120007418"
-                                },
-                                {
-                                    "title": "Country Of Origin",
-                                    "value": "Vietnam"
-                                },
-                                {
-                                    "title": "Features",
-                                    "value": "PoE (Power Over Ethernet)"
-                                },
-                                {
-                                    "title": "Application Sector",
-                                    "value": "Commercial, Industrial, Residential"
-                                },
-                                {
-                                    "title": "Warranty Type",
-                                    "value": "Lifetime"
-                                },
-                                {
-                                    "title": "Type",
-                                    "value": "Cable"
-                                }
-                            ]
-                        },
-                        {
-                            "Dimensions": [
-                                {
-                                    "title": "Product Length US",
-                                    "value": "2.0 FT"
-                                },
-                                {
-                                    "title": "Cable Length",
-                                    "value": "2 ft"
-                                }
-                            ]
-                        },
-                        {
-                            "Technical Information": [
-                                {
-                                    "title": "Jacket Material",
-                                    "value": "PVC (Polyvinyl Chloride)"
-                                },
-                                {
-                                    "title": "Wire Gauge",
-                                    "value": "26 AWG"
-                                },
-                                {
-                                    "title": "Cable Type",
-                                    "value": "Booted, Ethernet Patch Cable, Shielded (STP), Snagless"
-                                },
-                                {
-                                    "title": "Jacket Rating",
-                                    "value": "Standard / Non-Rated"
-                                },
-                                {
-                                    "title": "Cable Diameter",
-                                    "value": "6.2 mm"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            },
-            {
-                "length": "6 ft",
-                "color": {
-                    "product_name": "2ft (0.6m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Black",
-                    "color_name": "Black",
-                    "product_code": "#00707",
-                    "price": "$13.99",
-                    "image_name": "https://cdn2.webdamdb.com/1280_UACN48a8Is19.jpg?1625707140",
-                    "specifications": [
-                        {
-                            "General Info": [
-                                {
-                                    "title": "Product Line",
-                                    "value": "C2G"
-                                },
-                                {
-                                    "title": "Color",
-                                    "value": "Black"
-                                },
-                                {
-                                    "title": "UPC Number",
-                                    "value": "757120007074"
-                                },
-                                {
-                                    "title": "Country Of Origin",
-                                    "value": "Vietnam"
-                                },
-                                {
-                                    "title": "Features",
-                                    "value": "PoE (Power Over Ethernet)"
-                                },
-                                {
-                                    "title": "Application Sector",
-                                    "value": "Commercial, Industrial, Residential"
-                                },
-                                {
-                                    "title": "Warranty Type",
-                                    "value": "Lifetime"
-                                },
-                                {
-                                    "title": "Type",
-                                    "value": "Cable"
-                                }
-                            ]
-                        },
-                        {
-                            "Dimensions": [
-                                {
-                                    "title": "Product Length US",
-                                    "value": "2.0 FT"
-                                },
-                                {
-                                    "title": "Cable Length",
-                                    "value": "2 ft"
-                                }
-                            ]
-                        },
-                        {
-                            "Technical Information": [
-                                {
-                                    "title": "Jacket Material",
-                                    "value": "PVC (Polyvinyl Chloride)"
-                                },
-                                {
-                                    "title": "Wire Gauge",
-                                    "value": "26 AWG"
-                                },
-                                {
-                                    "title": "Cable Type",
-                                    "value": "Booted, Ethernet Patch Cable, Shielded (STP), Snagless"
-                                },
-                                {
-                                    "title": "Jacket Rating",
-                                    "value": "Standard / Non-Rated"
-                                },
-                                {
-                                    "title": "Cable Diameter",
-                                    "value": "6.2 mm"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            },
-            {
-                "length": "6 ft",
-                "color": {
-                    "product_name": "2ft (0.6m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Blue",
-                    "color_name": "Blue",
-                    "product_code": "#00673",
-                    "price": "$12.99",
-                    "image_name": "https://cdn2.webdamdb.com/1280_YUTRL9dm3sJ8.jpg?1625707129",
-                    "specifications": [
-                        {
-                            "General Info": [
-                                {
-                                    "title": "Product Line",
-                                    "value": "C2G"
-                                },
-                                {
-                                    "title": "Color",
-                                    "value": "Blue"
-                                },
-                                {
-                                    "title": "UPC Number",
-                                    "value": "757120006732"
-                                },
-                                {
-                                    "title": "Country Of Origin",
-                                    "value": "Vietnam"
-                                },
-                                {
-                                    "title": "Features",
-                                    "value": "PoE (Power Over Ethernet)"
-                                },
-                                {
-                                    "title": "Application Sector",
-                                    "value": "Commercial, Industrial, Residential"
-                                },
-                                {
-                                    "title": "Warranty Type",
-                                    "value": "Lifetime"
-                                },
-                                {
-                                    "title": "Type",
-                                    "value": "Cable"
-                                }
-                            ]
-                        },
-                        {
-                            "Dimensions": [
-                                {
-                                    "title": "Product Length US",
-                                    "value": "2.0 FT"
-                                },
-                                {
-                                    "title": "Cable Length",
-                                    "value": "2 ft"
-                                }
-                            ]
-                        },
-                        {
-                            "Technical Information": [
-                                {
-                                    "title": "Jacket Material",
-                                    "value": "PVC (Polyvinyl Chloride)"
-                                },
-                                {
-                                    "title": "Wire Gauge",
-                                    "value": "26 AWG"
-                                },
-                                {
-                                    "title": "Cable Type",
-                                    "value": "Booted, Ethernet Patch Cable, Shielded (STP), Snagless"
-                                },
-                                {
-                                    "title": "Jacket Rating",
-                                    "value": "Standard / Non-Rated"
-                                },
-                                {
-                                    "title": "Cable Diameter",
-                                    "value": "6.2 mm"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            }
-        ],
-        "specifications": [
-            {
-                "General Info": [
-                    {
-                        "title": "Product Line",
-                        "value": "C2G"
-                    },
-                    {
-                        "title": "Color",
-                        "value": "Gray"
-                    },
-                    {
-                        "title": "UPC Number",
-                        "value": "757120006398"
-                    },
-                    {
-                        "title": "Country Of Origin",
-                        "value": "Vietnam"
-                    },
-                    {
-                        "title": "Features",
-                        "value": "PoE (Power Over Ethernet)"
-                    },
-                    {
-                        "title": "Application Sector",
-                        "value": "Commercial, Industrial, Residential"
-                    },
-                    {
-                        "title": "Warranty Type",
-                        "value": "Lifetime"
-                    },
-                    {
-                        "title": "Type",
-                        "value": "Cable"
+                        "value": "Power Cord"
                     }
                 ]
             },
@@ -6901,370 +6246,30 @@
                 ]
             },
             {
-                "Technical Information": [
+                "Buy American Act Compliance": [
                     {
-                        "title": "Jacket Material",
-                        "value": "PVC (Polyvinyl Chloride)"
-                    },
-                    {
-                        "title": "Wire Gauge",
-                        "value": "26 AWG"
-                    },
-                    {
-                        "title": "Cable Type",
-                        "value": "Booted, Ethernet Patch Cable, Shielded (STP), Snagless"
-                    },
-                    {
-                        "title": "Jacket Rating",
-                        "value": "Standard / Non-Rated"
-                    },
-                    {
-                        "title": "Cable Diameter",
-                        "value": "6.2 mm"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "product_name": "3ft (0.9m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Gray",
-        "product_code": "#00640",
-        "product_description": "This Snagless Shielded Cat6a patch cable is ideal for use with 10GBase-T ports and equipment, such as network adapters, hubs, switches, routers, DSL/cable modems and patch panels, and will protect a high speed 10 Gigabit network connection from noise and electromagnetic interference. For voice/data/video distribution, this cable will handle bandwidth-intensive applications and drastically reduces both impedance and structural return loss (SRL). Each patch cable is fully tested to meet ANSI/TIA 568 C.2 Cat6a component requirements.Each of the individual pairs is bonded together to help maintain the twist-spacing throughout the line right up to the termination point. Constructed from high quality cable and plugs, this design minimizes Near-End Crosstalk (NEXT) levels. Available in a variety of colors to easily color-code a network installation. Individual length label on each cable for ease of use.",
-        "category_1": "Networking",
-        "category_2": "Data Center",
-        "product_features": [
-            "Designed for network adapters, hubs, switches, routers, HDBaseT applications and more",
-            "Supports 10 Gigabit networks up to 328ft for fast data transmission and maximum performance",
-            "Meets the ANSI/TIA-568-C.2 Cat6a requirements for supporting a wide variety of applications",
-            "Constructed with shielded twisted pair (STP) wires, designed to protect a high speed network from noise and electromagnetic interference",
-            "Snagless connector design for high density environments and protecting the RJ-45 connector's lock",
-            "Available in a variety of colors to color-code a network"
-        ],
-        "image_name": "https://cdn2.webdamdb.com/1280_oVWDkikPI3Z5.jpg?1625707139",
-        "variants": [
-            {
-                "length": "8 ft",
-                "color": {
-                    "product_name": "3ft (0.9m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Aqua",
-                    "color_name": "Aqua",
-                    "product_code": "#00742",
-                    "price": "$13.99",
-                    "image_name": "https://cdn2.webdamdb.com/1280_Mi6g0UVQiKL8.jpg?1625707167",
-                    "specifications": [
-                        {
-                            "General Info": [
-                                {
-                                    "title": "Product Line",
-                                    "value": "C2G"
-                                },
-                                {
-                                    "title": "Color",
-                                    "value": "Aqua"
-                                },
-                                {
-                                    "title": "UPC Number",
-                                    "value": "757120007425"
-                                },
-                                {
-                                    "title": "Country Of Origin",
-                                    "value": "Vietnam"
-                                },
-                                {
-                                    "title": "Features",
-                                    "value": "PoE (Power Over Ethernet)"
-                                },
-                                {
-                                    "title": "Application Sector",
-                                    "value": "Commercial, Industrial, Residential"
-                                },
-                                {
-                                    "title": "Warranty Type",
-                                    "value": "Lifetime"
-                                },
-                                {
-                                    "title": "Type",
-                                    "value": "Cable"
-                                }
-                            ]
-                        },
-                        {
-                            "Dimensions": [
-                                {
-                                    "title": "Product Length US",
-                                    "value": "3.0 FT"
-                                },
-                                {
-                                    "title": "Cable Length",
-                                    "value": "3 ft"
-                                }
-                            ]
-                        },
-                        {
-                            "Technical Information": [
-                                {
-                                    "title": "Jacket Material",
-                                    "value": "PVC (Polyvinyl Chloride)"
-                                },
-                                {
-                                    "title": "Wire Gauge",
-                                    "value": "26 AWG"
-                                },
-                                {
-                                    "title": "Cable Type",
-                                    "value": "Booted, Ethernet Patch Cable, Shielded (STP), Snagless"
-                                },
-                                {
-                                    "title": "Jacket Rating",
-                                    "value": "Standard / Non-Rated"
-                                },
-                                {
-                                    "title": "Cable Diameter",
-                                    "value": "6.2 mm"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            },
-            {
-                "length": "8 ft",
-                "color": {
-                    "product_name": "3ft (0.9m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Black",
-                    "color_name": "Black",
-                    "product_code": "#00708",
-                    "price": "$13.99",
-                    "image_name": "https://cdn2.webdamdb.com/1280_UACN48a8Is19.jpg?1625707140",
-                    "specifications": [
-                        {
-                            "General Info": [
-                                {
-                                    "title": "Product Line",
-                                    "value": "C2G"
-                                },
-                                {
-                                    "title": "Color",
-                                    "value": "Black"
-                                },
-                                {
-                                    "title": "UPC Number",
-                                    "value": "757120007081"
-                                },
-                                {
-                                    "title": "Country Of Origin",
-                                    "value": "Vietnam"
-                                },
-                                {
-                                    "title": "Features",
-                                    "value": "PoE (Power Over Ethernet)"
-                                },
-                                {
-                                    "title": "Application Sector",
-                                    "value": "Commercial, Industrial, Residential"
-                                },
-                                {
-                                    "title": "Warranty Type",
-                                    "value": "Lifetime"
-                                },
-                                {
-                                    "title": "Type",
-                                    "value": "Cable"
-                                }
-                            ]
-                        },
-                        {
-                            "Dimensions": [
-                                {
-                                    "title": "Product Length US",
-                                    "value": "3.0 FT"
-                                },
-                                {
-                                    "title": "Cable Length",
-                                    "value": "3 ft"
-                                }
-                            ]
-                        },
-                        {
-                            "Technical Information": [
-                                {
-                                    "title": "Jacket Material",
-                                    "value": "PVC (Polyvinyl Chloride)"
-                                },
-                                {
-                                    "title": "Wire Gauge",
-                                    "value": "26 AWG"
-                                },
-                                {
-                                    "title": "Cable Type",
-                                    "value": "Booted, Ethernet Patch Cable, Shielded (STP), Snagless"
-                                },
-                                {
-                                    "title": "Jacket Rating",
-                                    "value": "Standard / Non-Rated"
-                                },
-                                {
-                                    "title": "Cable Diameter",
-                                    "value": "6.2 mm"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            },
-            {
-                "length": "8 ft",
-                "color": {
-                    "product_name": "3ft (0.9m) Cat6a Snagless Shielded (STP) Ethernet Network Patch Cable - Blue",
-                    "color_name": "Blue",
-                    "product_code": "#00674",
-                    "price": "$13.99",
-                    "image_name": "https://cdn2.webdamdb.com/1280_YUTRL9dm3sJ8.jpg?1625707129",
-                    "specifications": [
-                        {
-                            "General Info": [
-                                {
-                                    "title": "Product Line",
-                                    "value": "C2G"
-                                },
-                                {
-                                    "title": "Color",
-                                    "value": "Blue"
-                                },
-                                {
-                                    "title": "UPC Number",
-                                    "value": "757120006749"
-                                },
-                                {
-                                    "title": "Country Of Origin",
-                                    "value": "Vietnam"
-                                },
-                                {
-                                    "title": "Features",
-                                    "value": "PoE (Power Over Ethernet)"
-                                },
-                                {
-                                    "title": "Application Sector",
-                                    "value": "Commercial, Industrial, Residential"
-                                },
-                                {
-                                    "title": "Warranty Type",
-                                    "value": "Lifetime"
-                                },
-                                {
-                                    "title": "Type",
-                                    "value": "Cable"
-                                }
-                            ]
-                        },
-                        {
-                            "Dimensions": [
-                                {
-                                    "title": "Product Length US",
-                                    "value": "3.0 FT"
-                                },
-                                {
-                                    "title": "Cable Length",
-                                    "value": "3 ft"
-                                }
-                            ]
-                        },
-                        {
-                            "Technical Information": [
-                                {
-                                    "title": "Jacket Material",
-                                    "value": "PVC (Polyvinyl Chloride)"
-                                },
-                                {
-                                    "title": "Wire Gauge",
-                                    "value": "26 AWG"
-                                },
-                                {
-                                    "title": "Cable Type",
-                                    "value": "Booted, Ethernet Patch Cable, Shielded (STP), Snagless"
-                                },
-                                {
-                                    "title": "Jacket Rating",
-                                    "value": "Standard / Non-Rated"
-                                },
-                                {
-                                    "title": "Cable Diameter",
-                                    "value": "6.2 mm"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            }
-        ],
-        "specifications": [
-            {
-                "General Info": [
-                    {
-                        "title": "Product Line",
-                        "value": "C2G"
-                    },
-                    {
-                        "title": "Color",
-                        "value": "Gray"
-                    },
-                    {
-                        "title": "UPC Number",
-                        "value": "757120006404"
-                    },
-                    {
-                        "title": "Country Of Origin",
-                        "value": "Vietnam"
-                    },
-                    {
-                        "title": "Features",
-                        "value": "PoE (Power Over Ethernet)"
-                    },
-                    {
-                        "title": "Application Sector",
-                        "value": "Commercial, Industrial, Residential"
-                    },
-                    {
-                        "title": "Warranty Type",
-                        "value": "Lifetime"
-                    },
-                    {
-                        "title": "Type",
-                        "value": "Cable"
-                    }
-                ]
-            },
-            {
-                "Dimensions": [
-                    {
-                        "title": "Product Length US",
-                        "value": "3.0 FT"
-                    },
-                    {
-                        "title": "Cable Length",
-                        "value": "3 ft"
+                        "title": "TAA Compliant",
+                        "value": "Yes"
                     }
                 ]
             },
             {
                 "Technical Information": [
                     {
-                        "title": "Jacket Material",
-                        "value": "PVC (Polyvinyl Chloride)"
-                    },
-                    {
                         "title": "Wire Gauge",
-                        "value": "26 AWG"
-                    },
-                    {
-                        "title": "Cable Type",
-                        "value": "Booted, Ethernet Patch Cable, Shielded (STP), Snagless"
+                        "value": "16 AWG"
                     },
                     {
                         "title": "Jacket Rating",
-                        "value": "Standard / Non-Rated"
+                        "value": "SJT Rated"
                     },
                     {
-                        "title": "Cable Diameter",
-                        "value": "6.2 mm"
+                        "title": "Amperage",
+                        "value": "13 A"
+                    },
+                    {
+                        "title": "Voltage",
+                        "value": "125.0 V"
                     }
                 ]
             }

@@ -51,8 +51,6 @@ class DataExtractor:
                 self.lengths.append(length)
                 self.extract_lengths_links(li)
 
-        del self.lengths[0]
-
         return
 
     def extract_colors_with_links(self, soup):
@@ -188,6 +186,11 @@ class DataExtractor:
         content["category_1"] = category_1
         content["category_2"] = category_2
         return
+
+    def extract_selected_length(self, soup):
+        div = soup.find("div", {"class": "lr-variant-selector lr-variant-type--text"})
+        li = div.find("li", {"class": "lr-variant-item selected"})
+        return li.text.strip()
 
     def empty_lengths_list(self):
         self.lengths = []
