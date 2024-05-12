@@ -80,8 +80,6 @@ def main():
 
             # extract data for individual length
             for idx, length_link in enumerate(extractor.lengths_links):
-                if idx == 2:
-                    break
                 content = {
                     "product_name": "",
                     "product_code": "",
