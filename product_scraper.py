@@ -1,93 +1,8 @@
-from bs4 import Tag
-
-
-class DataExtractor:
-    BASE_URL = "https://www.cablestogo.com"
-
+class ProductScraper:
     def __init__(self):
-        self.lengths_links = []
-        self.lengths = []
-        self.colors = []
-        self.colors_links = []
+        pass
 
-    def is_anchor_tag(self, anchor_tag):
-        if isinstance(anchor_tag, Tag):
-            return True
-        else:
-            return False
-
-    def get_text(self, li):
-        if li:
-            length = li.text.strip()
-            if not length or length == "0.5 ft":
-                return None
-            else:
-                return length
-        else:
-            return None
-
-    def extract_lengths_links(self, li):
-        anchor = li.find("a")
-        if self.is_anchor_tag(anchor):
-            link = anchor.get("href")
-            if link:
-                self.lengths_links.append(self.BASE_URL + link)
-
-        return
-
-    def extract_lengths_with_links(self, soup):
-        # Parse ul of cable lengths
-        length_div = soup.find(
-            "div", {"class": "lr-variant-selector lr-variant-type--text"}
-        )
-
-        # Extract li text and links for length
-        for li in length_div.ul:
-            length = self.get_text(li)
-            if length:
-                self.lengths.append(length)
-                self.extract_lengths_links(li)
-
-        # last link in the below array is "javascript:void(0)"
-        # so I did this to delete it
-        # del self.lengths_links[-1]
-
-        return
-
-    def extract_colors_with_links(self, soup):
-        div = soup.find("div", {"class": "lr-variant-selector lr-variant-type--color"})
-        for li in div.ul:
-            if not li:
-                continue
-            anchor = li.find("a")
-            if self.is_anchor_tag(anchor):
-                color_title = anchor.get("title")
-                href = anchor.get("href")
-
-                if href:
-                    self.colors.append(color_title)
-                    self.colors_links.append(self.BASE_URL + href)
-
-        del self.colors_links[-1]
-        del self.colors[-1]
-
-    # Function to extract color data
-    def extract_color_data(self, soup, content, color, length):
-        variant = {}
-        color_based_data = {}
-
-        product_name = soup.find("h1", {"class": "name"}).text
-        product_code = soup.find(
-            "span", {"class": "lr-product-info--item sku js-code-switch"}
-        ).text
-        price = soup.find("span", {"class": "listed-price"}).text or "not available"
-        image_div = soup.find("div", {"class": "lr-img-wp"})
-        if image_div:
-            image = image_div.find("img").get("data-src") or "not available"
-
-        # extract specs
-        specs_div = soup.find("div", {"class": "product-classifications"})
-
+    def scrape_specifications(self, soup):
         # extract headlines
         all_headlines = soup.find_all("div", {"class": "headline"})
         headlines_list = []
@@ -110,10 +25,41 @@ class DataExtractor:
                 headline = headlines_list[index]
                 specifications[index][headline].append(spec)
 
-        color_based_data["product_name"] = product_name
+    def scrape_name(self, soup):
+        product_name = soup.find("h1", {"class": "name"}).text
+        return product_name
+
+    def scrape_code(self, soup):
+        product_code = soup.find(
+            "span", {"class": "lr-product-info--item sku js-code-switch"}
+        ).text
+        return product_code
+
+    def scrape_image(self, soup):
+        image_div = soup.find("div", {"class": "lr-img-wp"})
+        image_link = image_div.find("img").get("data-src") or "not available"
+        return image_link
+
+    def scrape_price(self, soup):
+        price = (
+            soup.find("span", {"class": "listed-price"}).text.strip() or "not available"
+        )
+        return price
+
+    def extract_color_data(self, soup, content, color, length):
+        variant = {}
+        color_based_data = {}
+
+        name = self.scrape_name(soup)
+        code = self.scrape_code(soup)
+        price = self.scrape_price(soup)
+        image = self.scrape_image(soup)
+        specifications = self.scrape_specifications(soup)
+
+        color_based_data["product_name"] = name
         color_based_data["color_name"] = color
-        color_based_data["product_code"] = product_code
-        color_based_data["price"] = price.strip()
+        color_based_data["product_code"] = code
+        color_based_data["price"] = price
         color_based_data["image_name"] = image
         color_based_data["specifications"] = specifications
         variant["length"] = length
@@ -184,15 +130,3 @@ class DataExtractor:
         content["category_1"] = category_1
         content["category_2"] = category_2
         return
-
-    def empty_lengths_list(self):
-        self.lengths = []
-
-    def empty_lengths_links_list(self):
-        self.lengths_links = []
-
-    def empty_colors_list(self):
-        self.colors = []
-
-    def empty_colors_links_list(self):
-        self.colors_links = []
