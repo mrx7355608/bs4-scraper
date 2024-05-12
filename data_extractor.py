@@ -19,7 +19,7 @@ class DataExtractor:
     def get_text(self, li):
         if li:
             length = li.text.strip()
-            if not length or length == "0.5 ft":
+            if not length:
                 return None
             else:
                 return length
@@ -41,6 +41,9 @@ class DataExtractor:
             "div", {"class": "lr-variant-selector lr-variant-type--text"}
         )
 
+        if not length_div:
+            return
+
         # Extract li text and links for length
         for li in length_div.ul:
             length = self.get_text(li)
@@ -48,14 +51,15 @@ class DataExtractor:
                 self.lengths.append(length)
                 self.extract_lengths_links(li)
 
-        # last link in the below array is "javascript:void(0)"
-        # so I did this to delete it
-        # del self.lengths_links[-1]
+        del self.lengths[0]
 
         return
 
     def extract_colors_with_links(self, soup):
         div = soup.find("div", {"class": "lr-variant-selector lr-variant-type--color"})
+        if not div:
+            return
+
         for li in div.ul:
             if not li:
                 continue
