@@ -72,9 +72,11 @@ class DataExtractor:
         del self.colors[-1]
 
     # Function to extract color data
-    def extract_color_data(self, soup, content, color):
+    def extract_color_data(self, soup, content, color, length):
+        variant = {}
         color_based_data = {}
 
+        product_name = soup.find("h1", {"class": "name"}).text
         product_code = soup.find(
             "span", {"class": "lr-product-info--item sku js-code-switch"}
         ).text
@@ -108,12 +110,15 @@ class DataExtractor:
                 headline = headlines_list[index]
                 specifications[index][headline].append(spec)
 
+        color_based_data["product_name"] = product_name
         color_based_data["color_name"] = color
-        color_based_data["price"] = price.strip()
         color_based_data["product_code"] = product_code
+        color_based_data["price"] = price.strip()
         color_based_data["image_name"] = image
         color_based_data["specifications"] = specifications
-        content["variants"].append(color_based_data)
+        variant["length"] = length
+        variant["color"] = color_based_data
+        content["variants"].append(variant)
         return
 
     def extract_product_details(self, soup, content):
@@ -126,6 +131,17 @@ class DataExtractor:
         ).text
         image_div = soup.find("div", {"class": "lr-img-wp"})
         image = image_div.find("img").get("data-src") or "not available"
+        category_div = soup.find("div", {"class": "breadcrumb-section"})
+        categories = []
+
+        for li in category_div.ol:
+            categ = li.text.strip()
+            if not categ:
+                continue
+            else:
+                categories.append(categ)
+        category_1 = categories[-2]
+        category_2 = categories[-1]
 
         features = []
         features_ul = soup.find("ul", {"class": "list-unstyled lr-features-list"})
@@ -165,6 +181,8 @@ class DataExtractor:
         content["product_features"] = features
         content["image_name"] = image
         content["specifications"] = specifications
+        content["category_1"] = category_1
+        content["category_2"] = category_2
         return
 
     def empty_lengths_list(self):
