@@ -29,3 +29,8 @@ class FileHandler:
             json.dump(data, file, indent=4)
             print(f"File {filename} has been created")
         return
+
+    def write_logs(self, logsArray):
+        with open("logs.txt", "a+") as file:
+            for logs in logsArray:
+                file.write(logs)
