@@ -7,7 +7,7 @@ class ProductScraper(BaseScraper):
         super().__init__()
 
     def scrape(self, soup) -> dict:
-        content = {
+        scraped_product_data = {
             "product_name": "",
             "product_code": "",
             "product_description": "",
@@ -26,15 +26,15 @@ class ProductScraper(BaseScraper):
         product_description = self.scrape_description(soup)
         product_specifications = self.scrape_specifications(soup)
 
-        content["image_name"] = product_image
-        content["product_code"] = product_code
-        content["product_name"] = product_name
-        content["category_1"] = product_categories[-2]
-        content["category_2"] = product_categories[-1]
-        content["product_features"] = product_features
-        content["specifications"] = product_specifications
-        content["product_description"] = product_description
-        return content
+        scraped_product_data["image_name"] = product_image
+        scraped_product_data["product_code"] = product_code
+        scraped_product_data["product_name"] = product_name
+        scraped_product_data["category_1"] = product_categories[-2]
+        scraped_product_data["category_2"] = product_categories[-1]
+        scraped_product_data["product_features"] = product_features
+        scraped_product_data["specifications"] = product_specifications
+        scraped_product_data["product_description"] = product_description
+        return scraped_product_data
 
     def scrape_categories(self, soup) -> List[str]:
         category_div = soup.find("div", {"class": "breadcrumb-section"})
