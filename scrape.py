@@ -14,7 +14,7 @@ handle_files = FileHandler()
 
 urls = handle_files.read_from_csv("urls.csv")
 data = []
-logs=[]
+logs = []
 
 # with open("try.html") as file:
 #     soup = bs4(file, "lxml")
@@ -30,7 +30,7 @@ def scrape_variants(content, length):
         soup3 = bs4(resp3.content, "lxml")
         # extract data
         extractor.extract_color_data(soup3, content, extractor.colors[index], length)
-        
+
         print("Variant scraped...")
         logs.append("Variant scraped...")
 
@@ -107,9 +107,11 @@ def main():
                 }
                 resp2 = fetcher.get(length_link)
                 soup2 = bs4(resp2.content, "lxml")
-                
+
                 print(f"\nExtracting colors for length: {extractor.lengths[idx]}...")
-                logs.append(f"\nExtracting colors for length: {extractor.lengths[idx]}...")
+                logs.append(
+                    f"\nExtracting colors for length: {extractor.lengths[idx]}..."
+                )
 
                 extractor.extract_colors_with_links(soup2)
                 extractor.extract_product_details(soup2, content)
@@ -171,7 +173,7 @@ def main():
         # save data in a data.json file
         handle_files.write_to_json("content.json", data)
         logs.append("Created content.json file")
-        data = []
+        data.clear()
 
         handle_files.write_logs(logs)
         print("log file created")
