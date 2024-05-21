@@ -1,4 +1,5 @@
 from bs4 import Tag
+from typing import List
 
 
 class LengthsAndColorsScraper:
@@ -7,7 +8,8 @@ class LengthsAndColorsScraper:
         self.BASE_URL = "https://www.cablestogo.com"
 
     def extract_lengths_with_links(self, soup):
-        details = {"lengths": [], "lengths_links": []}
+        lengths = []
+        lengths_links = []
         length_div = soup.find(
             "div", {"class": "lr-variant-selector lr-variant-type--text"}
         )
@@ -16,24 +18,26 @@ class LengthsAndColorsScraper:
             # Extract length
             if self.is_valid_li(li):
                 lngth = li.text.strip()
-                details["lengths"].append(lngth)
+                lengths.append(lngth)
 
                 # get link of the current length page
                 anchor = li.find("a")
                 if self.is_valid_anchor_tag(anchor):
                     link = anchor.get("href")
-                    details["lengths_links"].append(self.BASE_URL + link)
+                    lengths_links.append(self.BASE_URL + link)
 
-        return details
+        return lengths, lengths_links
 
     def extract_colors_with_links(self, soup):
-        variants_details = {"colors": [], "colors_links": []}
+        colors = []
+        colors_links = []
+
         colors_div = soup.find(
             "div", {"class": "lr-variant-selector lr-variant-type--color"}
         )
 
         if not colors_div:
-            return None
+            return colors, colors_links
 
         for li in colors_div.ul:
             if not li:
@@ -45,13 +49,13 @@ class LengthsAndColorsScraper:
                 color_link = anchor.get("href")
 
                 if color_link:
-                    variants_details["colors"].append(color)
-                    variants_details["colors_links"].append(self.BASE_URL + color_link)
+                    colors.append(color)
+                    colors_links.append(self.BASE_URL + color_link)
 
-        del variants_details["colors"][-1]
-        del variants_details["colors_links"][-1]
+        del colors[-1]
+        del colors_links[-1]
 
-        return variants_details
+        return colors, colors_links
 
     def is_valid_anchor_tag(self, anchor_tag):
         if isinstance(anchor_tag, Tag) and anchor_tag.get("href"):
