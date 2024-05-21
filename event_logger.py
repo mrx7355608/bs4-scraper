@@ -3,9 +3,10 @@ class Logger:
         self.logs = []
 
     def log(self, event) -> None:
+        print(event)
         self.logs.append(event + "\n")
         return
-    
+
     def clear_logs(self) -> None:
         self.logs = []
         return
