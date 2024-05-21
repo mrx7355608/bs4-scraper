@@ -57,6 +57,11 @@ class LengthsAndColorsScraper:
 
         return colors, colors_links
 
+    def extract_selected_length(self, soup):
+        div = soup.find("div", {"class": "lr-variant-selector lr-variant-type--text"})
+        li = div.find("li", {"class": "lr-variant-item selected"})
+        return li.text.strip()
+
     def is_valid_anchor_tag(self, anchor_tag):
         if isinstance(anchor_tag, Tag) and anchor_tag.get("href"):
             return True
