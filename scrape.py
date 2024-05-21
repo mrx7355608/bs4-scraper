@@ -171,6 +171,7 @@ def main():
         # save data in a data.json file
         handle_files.write_to_json("content.json", data)
         logs.append("Created content.json file")
+        data = []
 
         handle_files.write_logs(logs)
         print("log file created")

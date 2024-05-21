@@ -1,2 +1,4 @@
 __pycache__/
 *.html
+content.json
+urls.csv
