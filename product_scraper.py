@@ -1,74 +1,65 @@
-class ProductScraper:
-    def __init__(self):
-        pass
-
-    def scrape_specifications(self, soup):
-        # extract headlines
-        all_headlines = soup.find_all("div", {"class": "headline"})
-        headlines_list = []
-        specifications = []
-        for headline in all_headlines:
-            headline = headline.text.strip()
-            spec_headline = {}
-            spec_headline[headline] = []
-            headlines_list.append(headline)
-            specifications.append(spec_headline)
-
-        # extract specs tables
-        all_tables = soup.find_all("table", {"class": "table"})
-        for index, table in enumerate(all_tables):
-            keys = table.find_all("td", {"class": "attrib"})
-            for key in keys:
-                value = key.find_next("td").text.strip()
-                spec = {"title": key.text.strip(), "value": value}
-
-                headline = headlines_list[index]
-                specifications[index][headline].append(spec)
+from base_scraper import BaseScraper
+from typing import List
 
 
-    def extract_color_data(self, soup, content, color, length):
-        variant = {}
-        color_based_data = {}
+class ProductScraper(BaseScraper):
+    def __init__(self) -> None:
+        super().__init__()
 
-        name = self.scrape_name(soup)
-        code = self.scrape_code(soup)
-        price = self.scrape_price(soup)
-        image = self.scrape_image(soup)
-        specifications = self.scrape_specifications(soup)
+    def scrape(self, soup) -> dict:
+        content = {
+            "product_name": "",
+            "product_code": "",
+            "product_description": "",
+            "category_1": "",
+            "category_2": "",
+            "product_features": [],
+            "image_name": "",
+            "variants": [],
+            "specifications": [],
+        }
+        product_name = self.scrape_name(soup)
+        product_code = self.scrape_code(soup)
+        product_image = self.scrape_image(soup)
+        product_features = self.scrape_features(soup)
+        product_categories = self.scrape_categories(soup)
+        product_description = self.scrape_description(soup)
+        product_specifications = self.scrape_specifications(soup)
 
-        color_based_data["product_name"] = name
-        color_based_data["color_name"] = color
-        color_based_data["product_code"] = code
-        color_based_data["price"] = price
-        color_based_data["image_name"] = image
-        color_based_data["specifications"] = specifications
-        variant["length"] = length
-        variant["color"] = color_based_data
-        content["variants"].append(variant)
-        return
+        content["image_name"] = product_image
+        content["product_code"] = product_code
+        content["product_name"] = product_name
+        content["category_1"] = product_categories[-2]
+        content["category_2"] = product_categories[-1]
+        content["product_features"] = product_features
+        content["specifications"] = product_specifications
+        content["product_description"] = product_description
+        return content
 
-    def extract_product_details(self, soup, content):
-        product_name = soup.find("h1", {"class": "name"}).text
-        product_code = soup.find(
-            "span", {"class": "lr-product-info--item sku js-code-switch"}
-        ).text
-        product_description = soup.find(
+    def scrape_categories(self, soup) -> List[str]:
+        category_div = soup.find("div", {"class": "breadcrumb-section"})
+
+        categories = []
+        for li in category_div.ol:
+            category = li.text.strip()
+            if category:
+                categories.append(category)
+            else:
+                categories.append("N/A")
+
+        return categories
+
+    def scrape_description(self, soup) -> str:
+        description = soup.find(
             "div", {"class": "description js-product-description"}
         ).text
-        image_div = soup.find("div", {"class": "lr-img-wp"})
-        image = image_div.find("img").get("data-src") or "not available"
-        category_div = soup.find("div", {"class": "breadcrumb-section"})
-        categories = []
 
-        for li in category_div.ol:
-            categ = li.text.strip()
-            if not categ:
-                continue
-            else:
-                categories.append(categ)
-        category_1 = categories[-2]
-        category_2 = categories[-1]
+        if not description:
+            return "N/A"
 
+        return description.strip()
+
+    def scrape_features(self, soup) -> List[str]:
         features = []
         features_ul = soup.find("ul", {"class": "list-unstyled lr-features-list"})
         for li in features_ul:
@@ -76,37 +67,4 @@ class ProductScraper:
             if li_text:
                 features.append(li_text)
 
-        # extract specs
-        specs_div = soup.find("div", {"class": "product-classifications"})
-
-        # extract headlines
-        all_headlines = soup.find_all("div", {"class": "headline"})
-        headlines_list = []
-        specifications = []
-        for headline in all_headlines:
-            headline = headline.text.strip()
-            spec_headline = {}
-            spec_headline[headline] = []
-            headlines_list.append(headline)
-            specifications.append(spec_headline)
-
-        # extract specs tables
-        all_tables = soup.find_all("table", {"class": "table"})
-        for index, table in enumerate(all_tables):
-            keys = table.find_all("td", {"class": "attrib"})
-            for key in keys:
-                value = key.find_next("td").text.strip()
-                spec = {"title": key.text.strip(), "value": value}
-
-                headline = headlines_list[index]
-                specifications[index][headline].append(spec)
-
-        content["product_name"] = product_name
-        content["product_code"] = product_code
-        content["product_description"] = product_description.strip()
-        content["product_features"] = features
-        content["image_name"] = image
-        content["specifications"] = specifications
-        content["category_1"] = category_1
-        content["category_2"] = category_2
-        return
+        return features
